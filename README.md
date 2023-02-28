@@ -7,3 +7,5 @@
 <img width="614" alt="image" src="https://user-images.githubusercontent.com/77548288/211402233-5ba14521-517d-451e-aba4-90551abe7d8d.png">
 
 
+<h1>EXO-UML : 4:</h1>
+<img width="694" alt="image" src="https://user-images.githubusercontent.com/77548288/221995885-1bee34bb-30e5-400b-b56d-de965d622adf.png">
