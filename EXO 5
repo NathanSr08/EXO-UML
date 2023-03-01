@@ -1,0 +1,39 @@
+Table "Produit" :
+id_produit (clé primaire)
+nom_produit
+description
+prix
+image
+id_catégorie (clé étrangère)
+
+Table "Catégorie" :
+id_catégorie (clé primaire)
+nom_catégorie
+
+Table "Client" :
+id_client (clé primaire)
+nom
+prénom
+adresse_email
+adresse_postale
+
+Table "Commande" :
+id_commande (clé primaire)
+id_client (clé étrangère)
+date_commande
+total
+
+Table "Détail_commande" :
+id_commande (clé étrangère)
+id_produit (clé étrangère)
+quantité
+prix_unitaire
+Pour lier les tables entre elles, nous avons les relations suivantes :
+
+La table "Produit" a une relation de clé étrangère avec la table "Catégorie".
+La table "Commande" a une relation de clé étrangère avec la table "Client".
+La table "Détail_commande" a des relations de clé étrangère avec les tables "Commande" et "Produit".
+Ainsi, nous pouvons récupérer les informations de chaque commande, y compris les produits achetés,
+en utilisant la table "Commande" et la table "Détail_commande". De même, nous pouvons récupérer les informations
+de chaque produit, y compris la catégorie à laquelle il appartient, en utilisant la table "Produit" et la table "Catégorie".
+Enfin, nous pouvons récupérer les informations de chaque client en utilisant simplement la table "Client".
