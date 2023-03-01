@@ -11,4 +11,4 @@
 <img width="694" alt="image" src="https://user-images.githubusercontent.com/77548288/221995885-1bee34bb-30e5-400b-b56d-de965d622adf.png">
 
 <h1>EXO-UML : 5:</h1>
-![image](https://user-images.githubusercontent.com/77548288/222123463-1b9b2193-5ae5-4a3b-b537-4786234e6596.png)
+<img width="694" alt="image" src="https://user-images.githubusercontent.com/77548288/222123463-1b9b2193-5ae5-4a3b-b537-4786234e6596.png">
